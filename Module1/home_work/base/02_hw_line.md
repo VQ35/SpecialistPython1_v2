@@ -18,9 +18,12 @@
 
 ```python
 import math
-math.pi # Число pi из библиотеки math
-# TODO: you code here...
-```
+ 
+R=float(input("R= "))
+
+S=math.pi*R**2
+
+print("Радиус: ", S)
 
 ---
 
