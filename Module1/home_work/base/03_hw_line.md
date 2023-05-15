@@ -17,9 +17,22 @@
 
 ### Решение задачи
 
-```python
-# TODO: you code here...
-```
+
+
+v = int (input ("Скорость км/ч: ") )
+t = int (input ("Время ч: ") )
+S=v*t
+mkad=109
+
+if   v >= 0 and mkad // S >= 1:
+    print("Проехал ",S)   
+elif  v >= 0 and mkad // S < 1:
+    print("Проехал ",S-mkad)
+elif v < 0 and mkad // abs(S) >=1:
+    print("Проехал ", mkad-abs(S))
+elif v < 0 and mkad // abs(S) < 1:
+    print("Проехал ",mkad+S+mkad)
+    
 
 ---
 
