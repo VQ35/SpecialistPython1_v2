@@ -16,10 +16,17 @@
 
 ### Решение задачи
 
-```python
 seconds = int(input("Прошло секунд: "))
-# TODO: you code here...
-```
+
+minutes= seconds//60
+seconds2=seconds%60
+hours=minutes//60
+minutes2=minutes%60
+days=hours//24
+hours2=hours%24
+
+
+print("dayes:",days,"hours: ",hours2,"min: ",minutes2, "sec" ,seconds2)
 
 ---
 
