@@ -18,8 +18,15 @@
 
 ### Решение задачи
 
-```python
-# TODO: you code here...
+number=int(input("number= "))
+if number % 5 == 0 and number % 3 == 0:
+    print("FOOBAR")
+elif number % 5 == 0:
+    print("BAR")
+elif number % 3 == 0:
+    print("FOO")
+else:
+    print("")
 ```
 
 ---
