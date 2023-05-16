@@ -21,7 +21,24 @@ _коров_, _корова_ или _коровы_, для заданного ч
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+count = int(input("кол-во : "))
+ostatok= count%10
+str="На лугу пасется "
+
+if count%10==1 and count!=11:
+    str_end = "Корова"
+    print(str,count,str_end)
+
+elif count%10>=2 and count%10<=4:
+    str_end = "Коровы"
+    print(str,count,str_end)
+
+elif count%10>=5 and count%10<=9:
+    str_end = "Коров"
+    print(str,count,str_end)
+elif 10<=count<=14:
+    str_end = "Коров"
+    print(str, count, str_end)
 ```
 
 ---
