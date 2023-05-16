@@ -34,8 +34,12 @@ n = 12
 12 119.88 рублей
 ```
 ### Решение задачи
-
-```python
-# TODO: you code here...
-```
-
+n = int(input("кол-во "))
+print(n)
+cost = 9.99
+count = 0
+sum = 0
+while count < n:
+    sum = sum + cost
+    count = count + 1
+print(sum)
