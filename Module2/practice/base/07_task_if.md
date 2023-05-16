@@ -14,10 +14,15 @@
 Вывести "Равнобедренны", "Не равнобедренный" или "Не существует".
 
 ### Решение задачи
-
-```python
-# TODO: you code here...
-```
+a = int(input("a= "))
+b = int(input("b= "))
+c = int(input("c= "))
+if ((a + b > c) and (a + c > b) and (b + c > a)) and (a == b or a == c or b == c):
+    print("Равнобедренный")
+elif ((a + b > c) and (a + c > b) and (b + c > a)) and (a != b or a != c or b != c):
+    print("Не равнобедренный")
+else:
+    print("Не существует")
 
 ---
 
