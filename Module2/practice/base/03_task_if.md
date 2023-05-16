@@ -17,9 +17,12 @@
 
 ### Решение задачи
 
-```python
-# TODO: you code here...
-```
+money=float(input("Денег: "))
+item=float(input("Цена товара: "))
+if item > money:
+    print("Денег не достаточно")
+else:
+    print("Денег осталось", money-item)
 
 ---
 
