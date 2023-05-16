@@ -33,7 +33,16 @@ n = 5
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+n = int(input("n: "))
+str="*"
+#count=0
+
+if n > 1 and n < 20:
+    str=str*n
+    print(str)
+else:
+    print("")
+
 ```
 
 ---
