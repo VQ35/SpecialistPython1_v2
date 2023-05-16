@@ -18,9 +18,12 @@
 
 ### Решение задачи
 
-```python
-# TODO: you code here...
-```
+n=int(input("кол-во "))
+
+if n%3==0 or n%5==0 or n%8==0 or n%8==3 or n%8==5 :
+    print("ДА")
+else:
+    print("Нет")
 
 ---
 
