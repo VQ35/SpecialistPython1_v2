@@ -16,10 +16,12 @@
 
 ### Решение задачи
 
-```python
-# TODO: you code here...
-```
-
+str="id:123"
+l=len(str)
+if str[0:3]=="id:"and str[3:l].isdigit():
+     print("да")
+else:
+     print("no")
 ---
 
 ### Данные для самопроверки
