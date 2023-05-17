@@ -20,10 +20,11 @@
 
 ### Решение задачи
 
-```python
-password = input("Enter password: ")
-# TODO: you code here...
-```
+str=input("введите пароль")
+if len(str)>=6 and str[0].istitle() and str.index("#",0)>0:
+    print("безопасно")
+else:
+    print("Не безопасно")
 
 ---
 
