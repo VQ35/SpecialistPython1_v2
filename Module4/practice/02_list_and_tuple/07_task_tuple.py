@@ -3,3 +3,10 @@
 tup = (2, 4, 6, -4, 12, 0, 5)
 
 # TODO: your code here
+7=OK
+tup = (2, 4, 6, -4, 12, 0, 5)
+mx=0
+for t in tup:
+    if t>mx:
+        mx=t
+print(mx)
